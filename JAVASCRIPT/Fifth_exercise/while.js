@@ -1,3 +1,5 @@
+// THIS PROGRAM CAN BE MADE WITH ONE SINGLE VAR
+// TIP: ctrl+shift+j in Chrome
 var firstTask = -10;
 var secondTask = 10;
 var thirdTask = 300;
