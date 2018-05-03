@@ -10,12 +10,11 @@ var modeButtons = document.querySelectorAll(".mode");
 
 init();
 function init(){
-	//mode buttons even listeners
-	setupModeButton();
-	
+	setupModeButton();	
 	setupSquares();
 	reset();
 }//f init
+
 resetButton.addEventListener("click", function(){
 	reset();
 });
