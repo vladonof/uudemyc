@@ -15,8 +15,8 @@ $("ul").on("click", "span", function(event){
 //adding new
 $("input[type='text']").on("keypress", function(event){
 	if(event.which === 13){
-		//grabbing new todo text from input
-		var todoText = $(this).val();
+   	//grabbing new todo text from input
+   	var todoText = $(this).val();
 		//create a new li and add to ul
 		$("ul").append("<li><span><i class='fas fa-eraser'></i></span> " + todoText +"</li");
 		//clear out input
